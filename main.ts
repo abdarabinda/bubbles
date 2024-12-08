@@ -15,4 +15,4 @@ bubble.createBoard()
 bubble.load_bubble()
 let mySprite = sprites.create(io2_images.joy, SpriteKind.Player)
 mySprite.top = 102
-music.play(music.stringPlayable("E F G E C G D E ", 120), music.PlaybackMode.UntilDone)
+music.play(music.stringPlayable("E F G E C G D E ", 120), music.PlaybackMode.LoopingInBackground)
